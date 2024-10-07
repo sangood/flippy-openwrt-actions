@@ -1,0 +1,6 @@
+- name: Package Armvirt as OpenWrt
+  uses: unifreq/openwrt_packit@master
+  env:
+    OPENWRT_ARMVIRT: openwrt/bin/targets/*/*/*.tar.gz
+    PACKAGE_SOC: s905d_s905x3_beikeyun
+    KERNEL_VERSION_NAME: 6.1.62-flippy-86+
